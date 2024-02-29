@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+header{
+    padding: 3%;
+    height: 80vh;
+    background-image: url(/images/desktop/image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display : flex ;
+    align-items: center;
+    list-style: none;
+    gap: 3vw;
+}
+nav li a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 1s;
+}
+nav li a:hover{
+    color: grey;
+}
+header h1{
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    width: 15vw;
+    margin-top: 15vh;
+    border: 1px solid white;
+    padding-inline: 15px;
+    padding-block: 15px;
+}
+main{
+    height: 80vh;
+}
+main div:nth-child(1){
+   
+}
+main div:nth-child(2){
+    
